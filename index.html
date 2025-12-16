@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8" />
+    <meta name = "viewport" content  = "width = device-width , initial-scale = 1.0"/>
+    <title>StyleMe - Fit Your Find</title>
+    <link rel = "stylesheet" href = "style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1> StyleMe : Fit Your Find</h1>
+        <p> Select Your Body Shape To Get Ideas! yay!</p>
+        <select id = "bodyshape">
+            <option value =""> -- Select your body shape --</option>
+            <option value = "Hourglass">Hourglass</option>
+            <option value = "Pear">Pear</option>
+            <option value = "Rectangle">Rectangle</option>
+            <option value = "Apple">Apple</option>
+            <option value = "invertedTriangle">invertedTriangle</option>
+            
+        </select>
+        <button onclick="showOutfit()">show Outfit Suggestions</button>
+        <div id="result"></div>
+
+
+    </div>
+    <script src ="script.js"></script>
+    
+
+</body>
+</html>
